@@ -28,11 +28,7 @@ HAL_Delay(2000);
 LCD_OutString("STM32F4 EXAMPLE",2);	  
 HAL_Delay(2000);
 LCD_Clear();
-/*LCD_OutString("My name is Emre",1);
-HAL_Delay(2000);
-LCD_OutString("STARTING...",2);	  
-HAL_Delay(3000);*/
-LCD_Clear();
+
   while (1)
   {
     key=KeypadGetKey();
